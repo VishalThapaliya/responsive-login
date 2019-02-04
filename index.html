@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Responsive Login Form</title>
+	<link rel="stylesheet" href="./css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.png">
+</head>
+<body>
+<div class="container">
+  <div class="sub-container">
+    
+    <form class="login-form">
+      <div class="title">
+          <p>Herzlich Wilkommen bei</p>
+          <h2>DataGuard!</h2>
+      </div>
+      <div class="input-fields">
+        <label class="label">E-mail-Adresse</label>
+        <input type="email" class="input" id="email">
+      </div>
+      <div class="input-fields">
+        <label class="label">Passwort</label>
+        <input type="password" class="input" >
+      </div>
+      <div class="item-container">
+        <input type="submit" class="btn" value="Anmelden" />
+        
+        <div class="itemBox rememberPassword">
+            <input type="checkbox">
+            <a href="#">Passwort merken</a>
+        </div>
+      </div>
+
+        <div class="item-container">
+            <p class="forgotPassword">Passwort vergessen?</p>
+        </div>
+    </form>
+
+    <div class="banner-img">
+        <picture>
+          <source media="(min-width: 501px)" srcset="./img/desktopImage.png">
+          <source media="(max-width: 500px)" srcset="./img/mobileImage.png">
+          <img src="./img/desktopImage.png" alt="dataguard">
+        </picture>
+      </div>
+  </div>
+</div>	
+	
+</body>
+</html>
